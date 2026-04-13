@@ -1,0 +1,213 @@
+{
+  "id": "planetary-panthers",
+  "title": "Planetary Panthers",
+  "version": "1.0.0",
+  "url": "https://www.patreon.com/cw/BeckaDesignsCartographyCats",
+  "manifest": "https://github.com/BeckaDesignsCartographyCats/planetary-panthers/releases/latest/download/module.json",
+  "download": "https://github.com/BeckaDesignsCartographyCats/planetary-panthers/releases/download/1.0.0/module.zip",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "description": "<p style=\"text-align:justify\">This module contains all maps, creatures, items and plot hooks for Becka_Tigress's Planetary Panther’s Patreon tier. This includes special maps not useable by the Lush Cave Lion's tier each month including the tutorial map that you can watch The Cartographer herself make! Also, find several special maps used by the Cartographer herself for her own personal campaign, all VTT ready to use! Additionally, there will be a selection of advanced functional maps created by your Foundry Wizard to elevate your session to the next level! Some of these additions might include additional tiles to help bring the scene to life or have clickable puzzles to help save DM time! Please, remember that all advanced maps are the Wizard experiments with chances for unforeseen happening, please let him know if things are either broken or not working right so he can fix them! The sound modules used in all the maps have been added as a recommendation for those wanting a bit more immersion! Feel free to not use them, it will not hurt the map experience!</p>",
+  "authors": [
+    {
+      "name": "Becka_Tigeress",
+      "url": "https://beccaschneller.wixsite.com/tigeressdesigns",
+      "discord": "beckatigeress4184",
+      "flags": {}
+    },
+    {
+      "name": "Garrus_2",
+      "discord": "garrus_2",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "maps",
+      "label": "Maps",
+      "banner": "modules/planetary-panthers/assets/banners/Tiers Foundry Planet.jpg",
+      "path": "packs/maps",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "tutorial",
+      "label": "Tutorial Maps",
+      "banner": "modules/planetary-panthers/assets/banners/Tiers Foundry Planet.jpg",
+      "path": "packs/tutorial",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "extra-maps",
+      "label": "Special Campaign and Friends Maps",
+      "banner": "modules/planetary-panthers/assets/banners/Tiers Foundry Planet.jpg",
+      "path": "packs/extra-maps",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "advanced-maps",
+      "label": "Advanced Maps",
+      "banner": "modules/planetary-panthers/assets/banners/Tiers Foundry Planet.jpg",
+      "path": "packs/advanced-maps",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "creatures",
+      "label": "Creatures",
+      "banner": "modules/planetary-panthers/assets/banners/Tiers Foundry Planet.jpg",
+      "path": "packs/creatures",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "plothooks",
+      "label": "Quests, Towns, and Monsters",
+      "banner": "modules/planetary-panthers/assets/banners/Tiers Foundry Planet.jpg",
+      "path": "packs/plothooks",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "item",
+      "label": "Special items",
+      "banner": "modules/planetary-panthers/assets/banners/Tiers Foundry Planet.jpg",
+      "path": "packs/item",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "abilities",
+      "label": "Creature Abilities",
+      "banner": "modules/planetary-panthers/assets/banners/Tiers Foundry Planet.jpg",
+      "path": "packs/abilities",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Planetary Panthers",
+      "sorting": "m",
+      "color": "#69008d",
+      "packs": [],
+      "folders": [
+        {
+          "name": "Planetary Panthers Maps",
+          "sorting": "a",
+          "color": "#cbc3e3",
+          "packs": [
+            "maps",
+            "tutorial",
+            "extra-maps",
+            "advanced-maps"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Monthly Creatures",
+          "sorting": "a",
+          "color": "#cbc3e3",
+          "packs": [
+            "creatures",
+            "abilities"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Monthly Story Starters",
+          "sorting": "a",
+          "color": "#cbc3e3",
+          "packs": [
+            "plothooks"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Special Items",
+          "sorting": "a",
+          "color": "#cbc3e3",
+          "packs": [
+            "item"
+          ],
+          "folders": []
+        }
+      ]
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "monks-active-tiles",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "JB2A_DnD5e",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "tagger",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "gAudioBundle-1",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "gAudioBundle-2",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "gAudioBundle-3",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "gAudioBundle-4",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  }
+}
