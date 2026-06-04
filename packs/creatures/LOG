@@ -1,14 +1,15 @@
-2026/04/13-09:44:25.392 442c Recovering log #195
-2026/04/13-09:44:25.397 442c Delete type=0 #195
-2026/04/13-09:44:25.397 442c Delete type=3 #194
-2026/04/13-09:48:20.323 6738 Level-0 table #199: started
-2026/04/13-09:48:20.323 6738 Level-0 table #199: 0 bytes OK
-2026/04/13-09:48:20.325 6738 Delete type=0 #197
-2026/04/13-09:48:20.330 6738 Manual compaction at level-0 from '!actors!AJj4j5qmolWHaSyW' @ 72057594037927935 : 1 .. '!folders!FVTLSAkywivnQXiW' @ 0 : 0; will stop at '!actors.items.effects!yRqUWOH983jAEScZ.RhQaLCWGmMi6QIym.efUOu8WO9dLRcmIo' @ 121 : 1
-2026/04/13-09:48:20.330 6738 Compacting 1@0 + 1@1 files
-2026/04/13-09:48:20.333 6738 Generated table #200@0: 26 keys, 28718 bytes
-2026/04/13-09:48:20.333 6738 Compacted 1@0 + 1@1 files => 28718 bytes
-2026/04/13-09:48:20.335 6738 compacted to: files[ 0 1 0 0 0 0 0 ]
-2026/04/13-09:48:20.335 6738 Delete type=2 #88
-2026/04/13-09:48:20.335 6738 Delete type=2 #192
-2026/04/13-09:48:20.342 6738 Manual compaction at level-0 from '!actors.items.effects!yRqUWOH983jAEScZ.RhQaLCWGmMi6QIym.efUOu8WO9dLRcmIo' @ 121 : 1 .. '!folders!FVTLSAkywivnQXiW' @ 0 : 0; will stop at (end)
+2026/06/03-18:13:58.998 2cb8 Recovering log #539
+2026/06/03-18:13:59.004 2cb8 Delete type=0 #539
+2026/06/03-18:13:59.004 2cb8 Delete type=3 #538
+2026/06/03-19:31:43.808 3258 Level-0 table #543: started
+2026/06/03-19:31:43.811 3258 Level-0 table #543: 29126 bytes OK
+2026/06/03-19:31:43.813 3258 Delete type=0 #541
+2026/06/03-19:31:43.840 3258 Manual compaction at level-0 from '!actors!AJj4j5qmolWHaSyW' @ 72057594037927935 : 1 .. '!folders!FVTLSAkywivnQXiW' @ 0 : 0; will stop at '!folders!BRXwAsfCx8gGNPFr' @ 126 : 1
+2026/06/03-19:31:43.840 3258 Compacting 2@0 + 1@1 files
+2026/06/03-19:31:43.844 3258 Generated table #544@0: 58 keys, 57926 bytes
+2026/06/03-19:31:43.844 3258 Compacted 2@0 + 1@1 files => 57926 bytes
+2026/06/03-19:31:43.845 3258 compacted to: files[ 0 1 0 0 0 0 0 ]
+2026/06/03-19:31:43.846 3258 Delete type=2 #200
+2026/06/03-19:31:43.846 3258 Delete type=2 #530
+2026/06/03-19:31:43.846 3258 Delete type=2 #543
+2026/06/03-19:31:43.846 3258 Manual compaction at level-0 from '!folders!BRXwAsfCx8gGNPFr' @ 126 : 1 .. '!folders!FVTLSAkywivnQXiW' @ 0 : 0; will stop at (end)
