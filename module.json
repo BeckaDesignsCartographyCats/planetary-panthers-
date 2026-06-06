@@ -1,15 +1,15 @@
 {
-  "id": "planetary-panthers",
-  "title": "Planetary Panthers",
-  "version": "1.1.1",
+  "id": "tundra-tigers-maps",
+  "title": "Tundra Tigers Maps",
+  "version": "1.1.2",
   "url": "https://www.patreon.com/cw/BeckaDesignsCartographyCats",
-  "manifest": "https://github.com/BeckaDesignsCartographyCats/planetary-panthers-/releases/latest/download/module.json",
-  "download": "https://github.com/BeckaDesignsCartographyCats/planetary-panthers-/releases/download/1.1.1/module.zip",
+  "manifest": "https://github.com/BeckaDesignsCartographyCats/tundra-tigers-maps/releases/latest/download/module.json",
+  "download": "https://github.com/BeckaDesignsCartographyCats/tundra-tigers-maps/releases/download/1.1.2/module.zip",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
   },
-  "description": "<p style=\"text-align:justify\">This module contains all maps, creatures, items and plot hooks for Becka_Tigress's Planetary Panther’s Patreon tier. This includes special maps not useable by the Lush Cave Lion's tier each month including the tutorial map that you can watch The Cartographer herself make! Also, find several special maps used by the Cartographer herself for her own personal campaign, all VTT ready to use! Additionally, there will be a selection of advanced functional maps created by your Foundry Wizard to elevate your session to the next level! Some of these additions might include additional tiles to help bring the scene to life or have clickable puzzles to help save DM time! Please, remember that all advanced maps are the Wizard experiments with chances for unforeseen happening, please let him know if things are either broken or not working right so he can fix them! The sound modules used in all the maps have been added as a recommendation for those wanting a bit more immersion! Feel free to not use them, it will not hurt the map experience!</p>",
+  "description": "<p style=\"text-align:justify\">This module contains all maps, creatures, items and plot hooks for Becka_Tigress's Tundra Tigers’ Patreon tier. This includes special maps not useable by the Lush Cave Lion's tier each month including the tutorial map that you can watch The Cartographer herself make! Also, find a few special maps used by the Cartographer herself for her own personal campaign all VTT ready to use! The sound modules used in all the maps have been added as a recommendation for those wanting a bit more immersion! Feel free to not use them, it will not hurt the map experience!</p>",
   "authors": [
     {
       "name": "Becka_Tigeress",
@@ -30,7 +30,7 @@
     {
       "name": "maps",
       "label": "Maps",
-      "banner": "modules/planetary-panthers/assets/banners/Tiers Foundry Planet.jpg",
+      "banner": "modules/tundra-tigers-maps/assets/banners/Tiers Foundry Arctic.jpg",
       "path": "packs/maps",
       "type": "Scene",
       "ownership": {
@@ -40,8 +40,8 @@
     },
     {
       "name": "tutorial",
-      "label": "Tutorial Maps",
-      "banner": "modules/planetary-panthers/assets/banners/Tiers Foundry Planet.jpg",
+      "label": "Tutorial  maps",
+      "banner": "modules/tundra-tigers-maps/assets/banners/Tiers Foundry Arctic.jpg",
       "path": "packs/tutorial",
       "type": "Scene",
       "ownership": {
@@ -51,20 +51,9 @@
     },
     {
       "name": "extra-maps",
-      "label": "Special Campaign and Friends Maps",
-      "banner": "modules/planetary-panthers/assets/banners/Tiers Foundry Planet.jpg",
+      "label": "Becka Campaign Maps",
+      "banner": "modules/tundra-tigers-maps/assets/banners/Tiers Foundry Arctic.jpg",
       "path": "packs/extra-maps",
-      "type": "Scene",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "advanced-maps",
-      "label": "Advanced Maps",
-      "banner": "modules/planetary-panthers/assets/banners/Tiers Foundry Planet.jpg",
-      "path": "packs/advanced-maps",
       "type": "Scene",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -74,7 +63,7 @@
     {
       "name": "creatures",
       "label": "Creatures",
-      "banner": "modules/planetary-panthers/assets/banners/Tiers Foundry Planet.jpg",
+      "banner": "modules/tundra-tigers-maps/assets/banners/Tiers Foundry Arctic.jpg",
       "path": "packs/creatures",
       "type": "Actor",
       "system": "dnd5e",
@@ -85,8 +74,8 @@
     },
     {
       "name": "plothooks",
-      "label": "Quests, Towns, and Monsters",
-      "banner": "modules/planetary-panthers/assets/banners/Tiers Foundry Planet.jpg",
+      "label": "Quests,Towns, and Monsters",
+      "banner": "modules/tundra-tigers-maps/assets/banners/Tiers Foundry Arctic.jpg",
       "path": "packs/plothooks",
       "type": "JournalEntry",
       "ownership": {
@@ -95,10 +84,10 @@
       }
     },
     {
-      "name": "item",
-      "label": "Special items",
-      "banner": "modules/planetary-panthers/assets/banners/Tiers Foundry Planet.jpg",
-      "path": "packs/item",
+      "name": "items",
+      "label": "Special Items",
+      "banner": "modules/tundra-tigers-maps/assets/banners/Tiers Foundry Arctic.jpg",
+      "path": "packs/items",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
@@ -109,7 +98,7 @@
     {
       "name": "abilities",
       "label": "Creature Abilities",
-      "banner": "modules/planetary-panthers/assets/banners/Tiers Foundry Planet.jpg",
+      "banner": "modules/tundra-tigers-maps/assets/banners/Tiers Foundry Arctic.jpg",
       "path": "packs/abilities",
       "type": "Item",
       "system": "dnd5e",
@@ -121,27 +110,26 @@
   ],
   "packFolders": [
     {
-      "name": "Planetary Panthers",
+      "name": "Tundra Tigers",
       "sorting": "m",
-      "color": "#69008d",
+      "color": "#ff6900",
       "packs": [],
       "folders": [
         {
-          "name": "Planetary Panthers Maps",
+          "name": "Tundra Tigers Maps",
           "sorting": "a",
-          "color": "#cbc3e3",
+          "color": "#ffa756",
           "packs": [
             "maps",
             "tutorial",
-            "extra-maps",
-            "advanced-maps"
+            "extra-maps"
           ],
           "folders": []
         },
         {
           "name": "Monthly Creatures",
           "sorting": "a",
-          "color": "#cbc3e3",
+          "color": "#ffa756",
           "packs": [
             "creatures",
             "abilities"
@@ -151,7 +139,7 @@
         {
           "name": "Monthly Story Starters",
           "sorting": "a",
-          "color": "#cbc3e3",
+          "color": "#ffa756",
           "packs": [
             "plothooks"
           ],
@@ -160,9 +148,9 @@
         {
           "name": "Special Items",
           "sorting": "a",
-          "color": "#cbc3e3",
+          "color": "#ffa756",
           "packs": [
-            "item"
+            "items"
           ],
           "folders": []
         }
@@ -170,23 +158,6 @@
     }
   ],
   "relationships": {
-    "requires": [
-      {
-        "id": "monks-active-tiles",
-        "type": "module",
-        "compatibility": {}
-      },
-      {
-        "id": "JB2A_DnD5e",
-        "type": "module",
-        "compatibility": {}
-      },
-      {
-        "id": "tagger",
-        "type": "module",
-        "compatibility": {}
-      }
-    ],
     "recommends": [
       {
         "id": "gAudioBundle-1",
